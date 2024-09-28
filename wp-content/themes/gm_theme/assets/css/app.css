@@ -7717,7 +7717,9 @@ button,a {
     flex-direction: column;
     width: 100%;
     max-width: 100%;
-    background: #fefefe;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.666); /* Semi-transparent blue */
+    -webkit-backdrop-filter: blur(15px); /* For Safari */
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
