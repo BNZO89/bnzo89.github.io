@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: transparent !important;
   background-image: url(/wp-content/uploads/2019/08/lightning.png') !important;
   background-size: cover !important;
@@ -26,63 +26,63 @@ body {
 /* Target phones in portrait mode */
 @media (max-width: 600px) {
     .page-template {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target tablets and smaller devices */
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 428px) and (max-width: 900px) {
     .page-template {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target larger tablets and small laptops */
 @media (min-width: 901px) and (max-width: 1200px) {
     .page-template {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target phones in portrait mode */
 @media (max-width: 600px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target tablets and smaller devices */
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 428px) and (max-width: 900px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target larger tablets and small laptops */
 @media (min-width: 901px) and (max-width: 1200px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target phones in portrait mode */
 @media (max-width: 600px) {
     .page-template body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target tablets and smaller devices */
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 428px) and (max-width: 900px) {
     .page-template body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
 /* Target larger tablets and small laptops */
 @media (min-width: 901px) and (max-width: 1200px) {
     .page-template body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
