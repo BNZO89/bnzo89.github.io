@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   background-color: transparent !important;
   background-image: url(/wp-content/uploads/2019/08/lightning.png') !important;
   background-size: cover !important;
