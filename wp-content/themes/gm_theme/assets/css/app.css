@@ -22,6 +22,68 @@ body {
   -moz-osx-font-smoothing: grayscale
 }
 
+/* Target phones in portrait mode */
+@media (max-width: 600px) {
+    .page-template {
+        overflow-x: hidden;
+    }
+}
+
+/* Target tablets and smaller devices */
+@media (min-width: 601px) and (max-width: 900px) {
+    .page-template {
+        overflow-x: hidden;
+    }
+}
+
+/* Target larger tablets and small laptops */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .page-template {
+        overflow-x: hidden;
+    }
+}
+
+/* Target phones in portrait mode */
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* Target tablets and smaller devices */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* Target larger tablets and small laptops */
+@media (min-width: 901px) and (max-width: 1200px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* Target phones in portrait mode */
+@media (max-width: 600px) {
+    .page-template body {
+        overflow-x: hidden;
+    }
+}
+
+/* Target tablets and smaller devices */
+@media (min-width: 601px) and (max-width: 900px) {
+    .page-template body {
+        overflow-x: hidden;
+    }
+}
+
+/* Target larger tablets and small laptops */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .page-template body {
+        overflow-x: hidden;
+    }
+}
 
 h1 {
     font-size: 2em;
